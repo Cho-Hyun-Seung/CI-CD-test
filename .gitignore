@@ -3,3 +3,5 @@ be14-4th-b612-littleprince-fe/public/audio/background.mp3
 docker-compose.yml
 .env
 /k8s/secret.yml
+
+/be15-4th-b612-littleprince-be/src/main/resources/application-test.yml
