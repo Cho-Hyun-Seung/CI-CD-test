@@ -18,7 +18,7 @@ async function bootstrap() {
         try {
             const response = await refreshMemberToken();
             authStore.setAccessToken(response.data.data.accessToken);
-            console.log('엑세스 토큰 재발급 완료');
+            console.log('엑세스 토큰 재발급 완료!!');
         } catch (e) {
             console.log(e);
             authStore.clearAccessToken();
