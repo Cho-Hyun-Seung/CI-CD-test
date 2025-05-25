@@ -22,7 +22,7 @@ async function bootstrap() {
         } catch (e) {
             console.log(e);
             authStore.clearAccessToken();
-            console.log('로그인 만료...');
+            console.log('로그인 만료');
         }
     } else {
         console.log('기존 access token 유효, refresh 생략');
