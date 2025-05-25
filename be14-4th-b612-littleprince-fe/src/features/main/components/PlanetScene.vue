@@ -125,7 +125,7 @@ const editPlanetName = async ({ planetName }) => {
 
 function setupScene() {
     const scene = new THREE.Scene();
-    loadHDRI('/models/space-background/NightSkyHDRI001_4K-HDR.exr', scene);
+    loadHDRI('/models/space-background/NightSkyHDRI001_1K-HDR.exr', scene);
     addBasicLighting(scene);
     sceneRef.value = scene;
     return scene;

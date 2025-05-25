@@ -28,7 +28,9 @@ coverage
 *.sw?
 
 *.tsbuildinfo
-/public/models/space-background/*.exr
+/public/models/space-background/NightSkyHDRI001_2K-HDR.exr
+/public/models/space-background/NightSkyHDRI001_4K-HDR.exr
+/public/models/space-background/NightSkyHDRI001_8K-HDR.exr
 
 # Environment variables
 .env
